@@ -481,13 +481,11 @@ Ex: counter()
 => 3
 
 */
-function counter() {
-  const count = 0;
-  return function() {
+  function counter() {
+  let count = 0;
     count++;
     return count;
   }
-}
 
 /*
 24
