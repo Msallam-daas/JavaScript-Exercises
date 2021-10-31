@@ -210,7 +210,7 @@ Ex: sumArray(nums) => 23
 function sumArray(number){
     let sum = 0;
     for(let i = 0; i < number.length; i++){
-        sum += arr[i];
+        sum += Array[i];
     }
     return sum;
 }
@@ -327,7 +327,7 @@ function shorterInArray(number){
     }
     return min;
 }
-console.log(shorterInArray(["alex","mercer","madrasa","rashed2","emad","hala"]));
+console.log(shorterInArray(["ali","mercer","madrasa","rashed2","emad","hala"]));
 
 /*
 19
@@ -369,7 +369,7 @@ function evenIndexOddLength(arra){
     let newArra = [];
     for(let i = 0; i < arra.length; i++){
         if(arra[i].length % 2 !== 0){
-            newarra.push(arra[i]);
+            newArra.push(arra[i]);
         }
     }
     return newArra;
@@ -413,10 +413,10 @@ function evenNumberEvenIndex(arra){
     let newArra = [];
     for(let i = 0; i < arra.length; i++){
         if(arra[i] % 2 === 0){
-            newArar.push(arra[i]);
+            newArra.push(arra[i]);
         }
     }
     return newArra;
 }
 console.log(evenNumberEvenIndex([5,2,2,1,8,66,55,77,34,9,55,1]));
-}
+
