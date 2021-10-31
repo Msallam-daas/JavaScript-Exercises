@@ -58,7 +58,7 @@ Ex: lastOfArray([1,4,5]) => 5
 Ex: lastOfArray(["t","u","g","x"]) => "x"
 */
 function lastOfArray(number){
-    return number[arr.length-1];
+    return number[Array.length-1];
 }
 console.log(lastOfArray([7,2,4,5]));
 
